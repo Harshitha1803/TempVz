@@ -1,0 +1,146 @@
+/* AdminDashboard.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .admin-dashboard {
+    display: flex;
+    height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  /* ===== Top Navbar ===== */
+  /* .admin-header {
+    position: fixed;
+    top: 0;
+    left: 250px;
+    right: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    color: white;
+    height: 60px;
+    z-index: 1000;
+  }
+  
+  .verizon-logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: red;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .search-bar input {
+    border: none;
+    background: transparent;
+    outline: none;
+    color: white;
+    padding: 5px;
+  }
+  
+  .search-icon {
+    margin-right: 5px;
+    color: yellow;
+  }
+  
+  .home-button {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .home-button:hover {
+    background-color: yellow;
+    color: black;
+  } */
+  
+  /* ===== Sidebar ===== */
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: black;
+    padding-top: 80px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .sidebar-item {
+    background: red;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    margin: 5px;
+    transition: 0.3s;
+  }
+  
+  .sidebar-item:hover {
+    background-color: yellow;
+    color: black;
+  }
+  
+  .submenu {
+    background: #222;
+    padding-left: 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+  }
+  
+  .submenu-item {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+  }
+  
+  .submenu-item:hover {
+    background-color: red;
+    color: white;
+  }
+  
+  /* ===== Main Content ===== */
+  .admin-container {
+    display: flex;
+    width: 100%;
+    margin-left: 250px;
+    padding-top: 80px;
+  }
+  
+  .admin-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .announcement {
+    background: #ffebcc;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid red;
+  }
+  
